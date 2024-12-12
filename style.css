@@ -1,0 +1,243 @@
+/* ERROR missing most of the rule sets you will need for your homepage middle section, many issues with rules for your header and footer, work on getting some more code in and then I will give feedback, add questions as comments if you are unsure how to do something you are trying to do*/
+
+
+header{
+	background-color: #fff799;
+
+}
+
+
+
+
+
+body{
+	background-color: white;
+	font-size: 18px;
+	padding: 0;
+	margin: 0;
+}
+
+
+footer{
+	background-color: #ff66ff;
+
+	
+}
+
+
+
+
+
+
+ footer{
+		background-color: #ff66ff;
+		color: white;
+		
+		
+		 
+		bottom: 0; 
+		width: 100%; 
+		height: 18%;
+}
+
+#footercontent{
+		float:right;
+		display:flex;
+		align-items:center;
+		padding-right: 5px;
+		
+}
+
+
+#workfootercontent{
+		float:right;
+		display:flex;
+		align-items:center;
+		padding-right: 5px;
+	
+}
+
+#workfooter{
+		float:bottom;
+		position:fixed;
+		background-color: #ff66ff;
+		color: white;
+		
+		
+		 
+		bottom: 0; 
+		width: 100%; 
+		height: 15%;
+
+}
+
+
+#workcontentpage{
+		display:flex;
+		justify-content: space-evenly;
+}
+
+#infographic{
+	float:left;
+	margin: 5px;
+}
+
+#leftside{
+	align-items:center;
+}
+
+
+#footerwork{
+	display:flex;
+	
+}
+
+
+#aboutbody{
+		padding:5px;
+		
+}
+
+h1{
+	background-color: #ff66ff; 
+	font-family:Bluff;
+	color: black;
+	text-shadow: 3px 3px 9px red;
+	text-align: center;
+	font-weight:1000;
+	line-height: 500%;
+	
+}
+
+h6{
+	float:right;
+	background-color: purple;
+	border: 25px;
+}
+
+h2{
+	float:center;
+	text-align: center;
+	
+}
+
+
+
+
+/* h2,h3,h4,h5,h6{
+	font-family: Roboto;
+	font-size: 170%;
+	text-decoration: wavy underline #e679ec 6px;
+	font-weight: 1000;
+}/* Need to define more rules for each type element individually to create hierarchy in your type design */
+
+
+
+
+
+td{
+	border: 2px solid;
+	background-color: lightblue;
+}
+th{
+	border: 3px solid;
+	empty-cells: hide;
+}
+
+@font-face{
+			font-family: Bluff;
+			src: url('Bluffolk.otf');
+			
+			font-family: Texturina;
+			src: url('Texturina.ttf');
+			
+			font-family: Bebas;
+			src: url('BebasNeue-Regular.ttf');
+}			
+p{
+    font-family: Bebas;
+	font-weight: 30;
+}
+
+hr{
+	border-style: dashed;
+	border-width: 2px;
+	border-color: #black;
+	padding: 1px;
+}
+
+
+nav{
+	text-align: center;
+}
+
+
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	background-color: cream;
+	padding: 20px;
+	width: 10%;
+	
+	border: 3px solid black;
+	margin: 10px;
+	font-size: 200%;
+	
+	
+}
+
+#abouttext{
+		margin-right:100px;
+		display:flex;
+
+}
+
+
+
+
+
+#abouttext img{
+	margin: 0px;
+	width: 600px;
+}
+
+#recentWork{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#content{
+	text-align: center;
+	margin: 15px auto;
+}
+
+#content img{
+	padding: 30px;
+}
+
+
+
+	
+a{
+	color: black;
+	text-decoration: none;
+	font-weight: 1000;
+}
+
+input[type="submit"] {
+	padding:5px 10px; 
+    background: red; 
+    border:1;
+   color: white;
+}
+input[type="radio"] {
+	border: 5px;
+}
+textarea{
+	color:white;
+	background-color: black;
+	padding: 1px;
+
+}
+
